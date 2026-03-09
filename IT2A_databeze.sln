@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IT2A_databeze", "IT2A_databeze\IT2A_databeze.csproj", "{1DD8FA4F-9142-4A74-9291-1CBB14E22ACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DD8FA4F-9142-4A74-9291-1CBB14E22ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD8FA4F-9142-4A74-9291-1CBB14E22ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD8FA4F-9142-4A74-9291-1CBB14E22ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD8FA4F-9142-4A74-9291-1CBB14E22ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0193095D-496D-4C59-808E-C0E4642DA338}
+	EndGlobalSection
+EndGlobal
