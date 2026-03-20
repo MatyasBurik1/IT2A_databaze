@@ -1,5 +1,5 @@
 ﻿IT2A_databeze
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 H:\Programování\2. ročník\databaze\IT2A_databeze\IT2A_databeze\App.xaml
 11407045341
 
-7-1696595595
+5-330880488
 198347540315
 MainWindow.xaml;
 
-False
+True
 

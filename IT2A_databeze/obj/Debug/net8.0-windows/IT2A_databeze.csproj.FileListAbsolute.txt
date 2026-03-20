@@ -1,0 +1,4 @@
+H:\Programování\2. ročník\databaze\IT2A_databeze\IT2A_databeze\obj\Debug\net8.0-windows\MainWindow.g.cs
+H:\Programování\2. ročník\databaze\IT2A_databeze\IT2A_databeze\obj\Debug\net8.0-windows\App.g.cs
+H:\Programování\2. ročník\databaze\IT2A_databeze\IT2A_databeze\obj\Debug\net8.0-windows\IT2A_databeze_MarkupCompile.cache
+H:\Programování\2. ročník\databaze\IT2A_databeze\IT2A_databeze\obj\Debug\net8.0-windows\IT2A_databeze_MarkupCompile.lref

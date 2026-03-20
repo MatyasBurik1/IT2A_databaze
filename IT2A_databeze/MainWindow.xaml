@@ -6,7 +6,53 @@
         xmlns:local="clr-namespace:IT2A_databeze"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
 
+        <Border Grid.Column="0" Padding="10" BorderBrush="Gray" BorderThickness="1">
+            <StackPanel>
+                <TextBlock Text="Evidence her" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Název:"/>
+                <TextBox x:Name="txtNazev"/>
+
+                <TextBlock Text="Vydavatel:" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtAutor"/>
+
+                <TextBlock Text="Rok vydání:" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtRok"/>
+
+                <TextBlock Text="Typ:" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtZaner"/>
+
+                <TextBlock Text="Cena:" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtKs"/>
+
+                <CheckBox x:Name="chkVlastnena" Content="Vlastním hru" Margin="0,5,0,10"/>
+
+                <Button Content="Přidat hru" Click="AddGame_Click" Margin="0,2"/>
+                <Button Content="Načíst vybranou do formuláře" Click="LoadGame_Click" Margin="0,2"/>
+                <Button Content="Upravit vybranou hru" Click="EditGame_Click" Margin="0,2"/>
+                <Button Content="Smazat vybranou hru" Click="DeleteGame_Click" Margin="0,2"/>
+                <Button Content="Vyčistit formulář" Click="ClearForm_Click" Margin="0,2"/>
+            </StackPanel>
+        </Border>
+        
+        <DataGrid x:Name="dataGrid"
+          AutoGenerateColumns="False"
+          Grid.Column="1"
+          Margin="0,0,10,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Název" Binding="{Binding Nazev}" Width="1.5*" />
+                <DataGridTextColumn Header="Vydavatel" Binding="{Binding Vydavatel}" Width="*" />
+                <DataGridTextColumn Header="Rok" Binding="{Binding Rok}" Width="50" />
+                <DataGridTextColumn Header="Typ" Binding="{Binding Typ}" Width="*" />
+                <DataGridTextColumn Header="Cena (€)" Binding="{Binding Cena}" Width="70" />
+                <DataGridCheckBoxColumn Header="Vlastněna" Binding="{Binding Vlastnena}" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
