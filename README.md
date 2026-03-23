@@ -8,7 +8,6 @@ Dnes se mi podařilo vytvořit:
 Dnes se mi podařilo vytvořit:
 <ul>
   <li>Kompletní XAML</li>
-  <li>Nastavit Github repozitář</li>
 </ul>
 <h2>23/3/2026</h2>
 Dnes se mi podařilo vytvořit:
